@@ -1,0 +1,81 @@
+body{
+  font-family:'Caprasimo', cursive;
+  font-family: 'Caveat', cursive;
+  font-family:'Lato', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Raleway', sans-serif;;
+  margin: 50px 50px 0px 50px;
+  background-color: white
+  display: flex;
+flex-direction: column;
+min-height: 95vh;
+}
+.main{
+  flex:1;
+}
+h1{
+  font-size: 5rem;
+}
+.creative{
+  color: red;
+  outline: solid black;
+  border-radius: 5px;
+}
+
+.tile-image{
+  height: 200px;
+  float: left;
+  margin: 100px;
+}
+
+.card{
+  width: 45%;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+footer{
+  text-align: right;
+  color: darkblue;
+  margin:50px;
+  
+}
+
+a{
+  text-decoration:solid;
+  color:black
+
+}
+#foot{
+  color:darkblue
+}
+  @media (max-width: 680px) {
+      .logo {
+        width: 100px;
+      }
+    
+      h1 {
+        font-size: 3.5rem;
+        text-align: center;
+      }
+    
+      .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+    
+      .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+    }
+    .tile-imag{
+      margin: 50px
+    }
